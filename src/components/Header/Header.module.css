@@ -1,0 +1,49 @@
+.header {
+    background: url("./main-bg.jpg") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.wrapper {
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 26, 22, 0)), to(rgba(61, 26, 22, 0.6)));
+    background-image: linear-gradient(to bottom, rgba(61, 26, 22, 0), rgba(61, 26, 22, 0.6));
+}
+
+.content {
+    max-width: 1500px;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.4rem;
+    font-style: italic;
+}
+
+.avatar {
+    margin-right: -1em;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 3;
+    border-radius: 100px;
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+}
+
+.user {
+    display: flex;
+}
+.buttonLogout , .backToChoice {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+}
+.buttonLogout {
+    margin-right: 20px ;
+}

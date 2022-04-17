@@ -1,0 +1,74 @@
+
+.shopSelect {
+    background: #fff;
+    width: 460px;
+    margin: 200px auto;
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 0 0 10px rgba(255,255,255,0.1), 0 0 10px rgba(0,0,0,0.18);
+}
+.shopSelectTop {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.shopSelectTopHeader{
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.4;
+    cursor: pointer;
+}
+.goToAffiliate {
+    padding-top: 10px;
+}
+.arrowPicker {
+    display: inline-block;
+    height: 100%;
+    width: 14px;
+}
+.arrowUp {
+    background: url(" ../../images/up.svg") no-repeat;
+    background-size: 100% auto;
+    width: 13px;
+    height: 12px;
+    top: 0;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.arrowDown {
+    background: url(" ../../images/down.svg") no-repeat;
+    background-size: 100% auto;
+    width: 13px;
+    height: 12px;
+    cursor: pointer;
+}
+.shopSelectBottom {
+    position: absolute;
+    padding: 0px 20px 10px;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    background: #fff;
+}
+.shopSelectBottom ul {
+    padding: 0 0 0 10px;
+}
+.shopSelectBottom ul li {
+    cursor: pointer;
+    list-style: none;
+    padding-top: 15px ;
+    font-size: 1.4em;
+}
+.shopSelectBottom ul li::before {
+    content: '■';
+    margin-right: 0.5rem;
+    color: var(--grey-1c);
+}
+.shopSelectBottom ul li:hover {
+    transform: scale(1.01);
+}

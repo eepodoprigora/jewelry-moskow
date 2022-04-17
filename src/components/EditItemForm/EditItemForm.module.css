@@ -1,0 +1,47 @@
+.itemEdit {
+    margin-bottom: 20px;
+    border: 2px solid var(--black);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: var(--white);
+
+}
+
+.itemEdit:nth-child(2n+1) {
+    margin-right: 3%;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    line-height: 1;
+    font-size: 1.2rem;
+    border: 0;
+    border-bottom: 1px solid var(--black);
+    appearance: none;
+    border-radius: 0;
+    background: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+.name, .image {
+  grid-column: span 2;
+}
+
+.price, .fabric {
+    border-right: 1px solid var(--black);
+}
+
+
+.button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+}
+
+

@@ -1,0 +1,52 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    padding: 0 10px;
+    width: 16%;
+    overflow: hidden;
+    background: #fff;
+    align-items: center;
+}
+
+.imageContainer {
+    margin-bottom: 10px;
+    width: 70%;
+    height: 150px;
+}
+
+.desc {
+    margin: 5px 0;
+    font-size: 1.6rem;
+    max-width: 500px;
+}
+
+.itemTitle{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.price {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.descr {
+    margin-bottom: 10px;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttonOrder {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.8rem;
+    align-self: flex-start;
+}
+.bottom{
+    margin-top: auto;
+}

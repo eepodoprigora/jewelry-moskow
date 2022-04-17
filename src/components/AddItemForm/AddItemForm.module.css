@@ -1,0 +1,43 @@
+.itemAdd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    align-self: flex-start;
+    width: 32%;
+    margin-bottom: 20px;
+    margin-right: 3%;
+    background-color: var(--white);
+    border: 2px solid var(--black);
+    overflow: hidden;
+}
+input,
+textarea,
+select{
+    padding:  10px;
+    line-height: 1;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid var(--black);
+    appearance: none;
+    border-radius: 0;
+    background: #fff;
+}
+textarea {
+    resize: none;
+
+}
+
+.name, .image {
+    grid-column: span 2;
+}
+.price, .fabric {
+    border-right: 1px solid var(--black);
+}
+
+.button {
+    padding: 0.6rem 1.2rem;
+    grid-column: span 2;
+    font-size: 1.1rem;
+    text-align: left;
+}
